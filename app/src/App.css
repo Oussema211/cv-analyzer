@@ -1,0 +1,62 @@
+body {
+  background: url('https://images.pexels.com/photos/5673502/pexels-photo-5673502.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  color: #232323;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.upload-section {
+  background: #d4cbcb;
+  padding: 15px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: #090909;
+}
+
+.cv-details {
+  flex: 3;
+  background: #FFFFFF;
+  padding: 20px;
+  border: 1px solid #555555;
+  border-radius: 10px;
+}
+
+.no-selection {
+  flex: 3;
+  text-align: center;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #555555;
+  border-radius: 10px;
+  color: #555555;
+}
+
+.analyze-button {
+  background-color: #CEFF00;
+  color: #232323;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+.analyze-button:hover {
+  background-color: #9B3E42;
+}
